@@ -2,7 +2,7 @@ def factOrSum(x, y):
     if y == "factorial":
         total = 1
 
-        for i in range(0, x +1):
+        for i in range(1, x + 1):
             total = total * i
 
         return total
@@ -10,9 +10,9 @@ def factOrSum(x, y):
     else:
         total = 0
 
-        for i in range(0, x + 1):
+        for i in range(0 + 1, x):
             total = total + i
 
         return total
 
-print (factOrSum(5, sum))
+print (factOrSum(4, "factorial"))
